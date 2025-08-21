@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Create Positive Scenarios for Login Features">
+    <parameter name="browser" value=""/>
+    <parameter name="url" value="https://tutorialsninja.com/demo/"/>
+
+    <test name="Exporting Products Data to CSV File for Tutorials Ninja">
+        <classes>
+            <class name="testcases.TC02_ExportTutorialsNinjaProducts">
+                <methods>
+                    <include name="extractTutorialsNinjaProductData_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

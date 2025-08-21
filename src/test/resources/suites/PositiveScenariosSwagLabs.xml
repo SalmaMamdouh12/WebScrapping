@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Create Positive Scenarios for Login Features">
+    <parameter name="browser" value=""/>
+    <parameter name="url" value="https://www.saucedemo.com/v1/"/>
+
+    <test name="Exporting Products Data to CSV File for Swag Labs">
+        <classes>
+            <class name="testcases.TC01_ExportSwagLabsProducts">
+                <methods>
+                    <include name="extractSwagLabsProductData_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
