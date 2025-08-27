@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Get Code') {
             steps {
-                git changelog: false, poll: false, url: 'https://github.com/Shady1997/AutomationExerciseWithFindByDesign.git'
+                git changelog: false, poll: false, url: 'https://github.com/SalmaMamdouh12/WebScrapping.git'
             }
         }
 
